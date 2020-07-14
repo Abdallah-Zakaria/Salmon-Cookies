@@ -112,3 +112,6 @@ footer img{
     transition:  linear 0.2s;
 }
 
+#orderForm {
+    margin: 20px;
+}
