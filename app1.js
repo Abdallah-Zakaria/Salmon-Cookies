@@ -41,6 +41,7 @@ var header = function () {
 var footer = function () {
     //create footer row 
     var tableRow7 = document.createElement("tr");
+    tableRow7.setAttribute("id","tableRow7")
     table.appendChild(tableRow7);
 
     //create cells for row 
@@ -128,12 +129,24 @@ var branchLocation = event.target.branchLocation.value;
 console.log(branchLocation)
 
 var minimumCustomerPerHour =event.target.minimumCustomerPerHour.value;
-console.log(minimumCustomerPerHour)
+console.log(typeof(minimumCustomerPerHour))
 
 var maxiumumCustomerPerHour =event.target.maxiumumCustomerPerHour.value;
 console.log(maxiumumCustomerPerHour)
 
 var averageCookiesPerCustomer =event.target.averageCookiesPerCustomer.value;
 console.log(averageCookiesPerCustomer)
+
+branchesNames.push(branchLocation);
+console.log(branchesNames)
+newBranch = new Branchs(branchLocation,parseInt(minimumCustomerPerHour),parseInt(maxiumumCustomerPerHour),parseInt(averageCookiesPerCustomer))
+console.log(newBranch)
+newBranch.render();
+
+deletFooter = document.getElementById("tableRow7")
+deletFooter.remove();
+
+
+footer();
 
 })
