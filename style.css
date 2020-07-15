@@ -115,3 +115,12 @@ footer img{
 #orderForm {
     margin: 20px;
 }
+#addBranchFormAndTable {
+    display: inline-block;
+}
+#footerCell {
+    background-color: yellowgreen;
+}
+#tableRow7 {
+    background-color: lightslategrey;
+}

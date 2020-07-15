@@ -60,6 +60,7 @@ var footer = function () {
         var footerCell = document.createElement('td');
         tableRow7.appendChild(footerCell);
         footerCell.textContent = Total
+        footerCell.setAttribute("id","footerCell")
         var totalAll = totalAll + totalFourBranchInOneHour[i]
     }
     var tableFooter = document.createElement("td");
@@ -143,9 +144,8 @@ newBranch = new Branchs(branchLocation,parseInt(minimumCustomerPerHour),parseInt
 console.log(newBranch)
 newBranch.render();
 
-deletFooter = document.getElementById("tableRow7")
+deletFooter = document.getElementById("tableRow7");
 deletFooter.remove();
-
 
 footer();
 
