@@ -44,7 +44,7 @@ article{
     border-radius: 100px;
 }
 .products:hover{
-    transition: linear 0.5s;
+    transition: linear 0.5s ;
     border-radius: 0;
 }
 #ourLocation{
