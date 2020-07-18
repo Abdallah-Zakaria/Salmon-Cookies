@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap');
+body{
+    background-color: #bebebe;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+header {
+    text-align: center;
+    font-family: Times New Roman Georgia;
+}
+
+#logo {
+    display: inline-block;
+    width: 250px;
+}
+.navigatorItem{
+    display: inline-block;
+    margin: 20px;
+    font-weight: bolder;
+    border: black solid 1px;
+    border-radius: 50px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+
+}
+.navigatorItem:hover {
+    background-color: cadetblue;
+    color: white;
+    transition:  linear 0.3s;
+}
+main section{
+    display: flex;
+    justify-content: center;
+    color: blue;
+
+}
+article{
+    margin: 50px;
+
+}
+.productsList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.products {
+    width: 250px;
+    margin: 10px;
+    border: 1px solid snow ;
+    border-radius: 100px;
+}
+.products:hover{
+    transition: linear 0.5s ;
+    border-radius: 0;
+}
+#ourLocation{
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 200px;
+
+}
+
+
+#ourLocation{
+    font-weight:bolder;
+    font-size: 50px;
+}
+ul{
+    list-style-type: none;
+}
+li, .time {
+    font-weight:bolder;
+    font-size: 20px;
+}
+
+footer , header{
+    background: linear-gradient(90deg, rgba(0,212,255,1), rgba(0,0,0,0) 50%, rgba(0,212,255,1) 100%);    text-align: center;
+    border-radius: 10px;
+
+}
+footer p {
+    font-weight:bolder;
+    font-size: 20px;
+    margin: 10px;
+}
+footer img{
+    width: 25px;
+    height: 25px;
+}
+.welcomeMessage{
+    font-weight: bolder;
+    color: red;
+    font-size: 40px;
+    transition: ease-in 1s;
+    text-align: center;
+
+}
+/* body{
+    background-color: rgba(0,212,255,1);
+    color: white;
+
+} */
+
+#change1{
+    position: absolute;
+    right: 120px;
+    border-radius: 50px;
+
+}
+#change2{
+    position: absolute;
+    right: 40px;
+    border-radius: 50px;
+}
+#change1:hover , #change2:hover{
+    background-color: cadetblue;
+    color: white;
+    transition:  linear 0.2s;
+}
+
+#orderForm {
+    margin: 20px;
+}
+#addBranchFormAndTable {
+    display: inline-block;
+}
+#footerCell {
+    background-color: yellowgreen;
+}
+#tableRow7 {
+    background-color: lightslategrey;
+}
+.moreImage{
+    text-align: center;
+
+}
+.howWeAre{
+    color: red;
+    font-family: 'Zilla Slab Highlight', cursive;
+}
+.howWeAre h1{
+    font-size: xx-large;
+    font-weight: bolder;
+
+}
+.howWeAre p{
+    font-size: large;
+    font-weight: bolder;
+}

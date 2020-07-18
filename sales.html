@@ -1,15 +1,80 @@
 <!DOCTYPE html>
-<html >
-<head>
-    <title>Salmon-Cookies</title>
-</head>
-<body>
-    <div id="Seattle"></div>
-    <div id="Tokyo"></div>
-    <div id="Dubai"></div>
-    <div id="Paris"></div>
-    <div id="Lima"></div>
+<html>
 
+<head id= "head">
+    <title>Salmon-Cookies- Statistics page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="img/salmon.png" alt="salmon">
+        <input id="change1" type="submit"  value="BLACK-WHITE" onclick="changeColorBlack()">
+        <input id="change2" type="submit"  value="NORMAL" onclick="changeColorNormal()">
+        <nav class="navigator">
+            <a class="navigatorItem" href="index.html">Home</a>
+            <a class="navigatorItem" href="sales.html">Statistics</a>
+            <a class="navigatorItem" href="order.html">Orders</a>
+
+        </nav>
+    </header>
+    <main id = "addBranchFormAndTable">
+        <form id="addBranchForm">
+            <fieldset>
+                <legend>
+                    ADD NEW BRANCH
+                </legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="branchLocation">Location</label>
+                        </td>
+                        <td>
+                            <input type="text" id="branchLocation">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="minimumCustomerPerHour">Min / Cust</label>
+                        </td>
+                        <td>
+                            <input type="number" id="minimumCustomerPerHour">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="maxiumumCustomerPerHour">Max / Cust</label>
+                        </td>
+                        <td>
+                            <input type="number" id="maxiumumCustomerPerHour">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="averageCookiesPerCustomer">Avg Cookie / Sale</label>
+                        </td>
+                        <td>
+                            <input type="number" id="averageCookiesPerCustomer">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 200px;"></td>
+                        <td ><input type="submit" value="Add Branch"></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+        <div id="table container"></div>
+    </main>
+    <footer>
+        <p>Contact Us</p>
+        <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt=""></a>
+        <a href=""><img src="https://www.freepnglogos.com/uploads/instagram-logos-png-images-free-download-2.png" alt=""></a>
+        <a href=""><img src="" alt=""></a>
+    </footer>
 </body>
-<script src ="app.js"></script>
+<script src="app1.js"></script>
+<script src="app2.js"></script>
+
+
 </html>

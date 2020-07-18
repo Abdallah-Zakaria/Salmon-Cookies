@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html >
+<head id= "head">
+    <title>Salmon-Cookies- Order page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img id="logo" src="img/salmon.png" alt="salmon">
+        <input id="change1" type="submit"  value="BLACK-WHITE" onclick="changeColorBlack()">
+        <input id="change2" type="submit"  value="NORMAL" onclick="changeColorNormal()">
+        <nav class="navigator">
+            <a class="navigatorItem" href="index.html">Home</a>
+            <a class="navigatorItem" href="sales.html">Statistics</a>
+            <a class="navigatorItem" href="order.html">Orders</a>
+
+        </nav>
+    </header>
+    <main class = "orders">
+        <article id="article1">
+            <form id="orderForm">
+                <fieldset>
+                  <legend>
+                    ORDER NOW !!
+                  </legend>
+                  <table>
+                    <tr>
+                      <td>
+                        <label for="customerName">Name: </label>
+                      </td>
+                      <td>
+                        <input type="text" id="customerName">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <label for="customerAge">Age: </label>
+                      </td>
+                      <td>
+                        <input type="number" id="customerAge">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <label for="customerPhone">Phone number: </label>
+                      </td>
+                      <td>
+                        <input type="tel" id="customerPhone">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <label for="customerLocation">Location: </label>
+                      </td>
+                      <td>
+                        <input type="text" id="customerLocation" >
+                      </td>
+                    </tr>
+                      <tr>
+                        <td>
+                          <label for="cookiesNumber">How much cookies: </label>
+                        </td>
+                        <td>
+                          <input type="number" id="cookiesNumber">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <label for="cookiesSize">Cookies Size: </label>
+                        </td>
+                      <td>
+                        <select id="cookiesSize">
+                          <option></option>
+
+                          <option>Small</option>
+                          <option>Medium</option>
+                          <option>Large</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <label for="isItPickup"> pickup order </label>
+                      </td>
+                      <td>
+                        <input type="checkbox" id="isItPickup">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <label for="isItDelivery">delivery order </label>
+                      </td>
+                      <td>
+                        <input type="checkbox" id="isItDelivery">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td></td>
+                      <td><input type="submit" value="Order"></td>
+                    </tr>
+                  </table>
+                </fieldset>
+              </form>    
+        </article>
+
+        <article id="article2">
+
+        </article>
+
+
+
+
+    </main>
+    <footer>
+        <p>Contact Us</p>
+        <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt=""></a>
+        <a href=""><img src="https://www.freepnglogos.com/uploads/instagram-logos-png-images-free-download-2.png" alt=""></a>
+        <a href=""><img src="" alt=""></a>
+    </footer>
+</body>
+<script src="app3.js"></script>
+<script src="app2.js"></script>
+
+
+</html>
