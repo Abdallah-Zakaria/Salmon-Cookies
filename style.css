@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap');
+body{
+    background-color: #bebebe;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
 header {
     text-align: center;
+    font-family: Times New Roman Georgia;
 }
 
 #logo {
@@ -22,9 +28,10 @@ header {
     color: white;
     transition:  linear 0.3s;
 }
-main{
+main section{
     display: flex;
     justify-content: center;
+    color: blue;
 
 }
 article{
@@ -123,4 +130,21 @@ footer img{
 }
 #tableRow7 {
     background-color: lightslategrey;
+}
+.moreImage{
+    text-align: center;
+
+}
+.howWeAre{
+    color: red;
+    font-family: 'Zilla Slab Highlight', cursive;
+}
+.howWeAre h1{
+    font-size: xx-large;
+    font-weight: bolder;
+
+}
+.howWeAre p{
+    font-size: large;
+    font-weight: bolder;
 }
